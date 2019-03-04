@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="txt_insertedAmount" HorizontalAlignment="Left" Height="23" Margin="180,50,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.743,-2.26" MouseEnter="txt_insertedAmount_MouseEnter"/>
+        <Button x:Name="btn_addMoney" Content="Insert" HorizontalAlignment="Left" Margin="371,50,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.844,0.819" Height="23" Click="button_Click"/>
+        <Label x:Name="money_label" Content="Insert Money" HorizontalAlignment="Left" Margin="46,47,0,0" VerticalAlignment="Top" Width="83"/>
+        <Label x:Name="lbl_ticketCost" Content="" HorizontalAlignment="Left" Margin="180,10,0,0" VerticalAlignment="Top" Width="156"/>
+        <Label x:Name="lbl_balance" Content="Label" HorizontalAlignment="Left" Margin="180,91,0,0" VerticalAlignment="Top" Width="94"/>
+        <Button x:Name="btn_reset" Content="Reset" HorizontalAlignment="Left" Margin="514,50,0,0" VerticalAlignment="Top" Width="75" Click="btn_reset_Click"/>
+        <Label x:Name="lbl_total" Content="Label" HorizontalAlignment="Left" Margin="371,99,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.412,-0.106" Width="75"/>
+        <TextBlock x:Name="txtb_print" HorizontalAlignment="Left" Margin="46,138,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="134" Width="254"/>
+        <Button x:Name="btn_print" Content="Button" HorizontalAlignment="Left" Margin="371,190,0,0" VerticalAlignment="Top" Width="75"/>
+
     </Grid>
 </Window>
